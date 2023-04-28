@@ -24,14 +24,9 @@ export const Navbar = () => {
         height={70}
       />
       <NextLink href="/" passHref>
-        <Link>
-          <Text color="white" h2>
-            P
-          </Text>
-          <Text color="white" h3>
-            okémon
-          </Text>
-        </Link>
+        <Text color="white" h2>
+          Pokémon
+        </Text>
       </NextLink>
 
       <Spacer css={{ flex: 1 }} />
